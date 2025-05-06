@@ -9,16 +9,16 @@ The **Image Modification Program** is a Java-based application that processes an
 
 ## Features 
 - **Negate**: Inverts the colors of the image by subtracting each pixel value from 255.
-- # Output:
+- **Output**:
   ![negate](https://github.com/user-attachments/assets/e8a0c3c9-040d-48c7-a611-5eeffd9e4c66)
 - **Quantize**: Converts pixel values to either 0 or 255 based on a threshold of 127.
-- # Output:
+- **Output**:
   ![quantize](https://github.com/user-attachments/assets/51ed4f66-ab4f-427c-9c34-64a5cfd299e2)
 - **Grayscale**: Converts the image to grayscale by averaging the red, green, and blue components of each pixel.
-- # Output:
+- **Output**:
  ![grayscale](https://github.com/user-attachments/assets/52901c28-817b-42ed-aa33-ac64236599dd)
 - **Flip Horizontal**: Flips the image horizontally.
-- # Output:
+-**Output**:
 ![fliphorizontal](https://github.com/user-attachments/assets/7eb9d03f-1485-4b51-bb27-1e86b3fc872e)
 
 
