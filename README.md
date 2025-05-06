@@ -4,24 +4,6 @@
 
 The **Image Modification Program** is a Java-based application that processes and modifies PPM (Portable Pixmap) image files. The program allows users to apply various image transformations, such as negation, quantization, grayscale conversion, and horizontal flipping.
 
-## Our Input ppm File converted to jpg:
-![althaea](https://github.com/user-attachments/assets/c5c07d45-60dd-4404-9df6-830f6e384e13)
-
-## Features 
-- **Negate**: Inverts the colors of the image by subtracting each pixel value from 255.
-- **Output**:
-  ![negate](https://github.com/user-attachments/assets/e8a0c3c9-040d-48c7-a611-5eeffd9e4c66)
-- **Quantize**: Converts pixel values to either 0 or 255 based on a threshold of 127.
-- **Output**:
-  ![quantize](https://github.com/user-attachments/assets/51ed4f66-ab4f-427c-9c34-64a5cfd299e2)
-- **Grayscale**: Converts the image to grayscale by averaging the red, green, and blue components of each pixel.
-- **Output**:
- ![grayscale](https://github.com/user-attachments/assets/52901c28-817b-42ed-aa33-ac64236599dd)
-- **Flip Horizontal**: Flips the image horizontally.
--**Output**:
-![fliphorizontal](https://github.com/user-attachments/assets/7eb9d03f-1485-4b51-bb27-1e86b3fc872e)
-
-
 ## How It Works
 1. The program reads an input PPM file and processes its header to extract metadata such as image width, height, and maximum color value.
 2. The user selects one of the available modifications.
@@ -49,7 +31,25 @@ The **Image Modification Program** is a Java-based application that processes an
 - **Input File**: The program expects a valid PPM file as input. The file should follow the PPM format, including a header with the PPM type, image dimensions, and maximum color value.
 - **Output File**: The program generates a modified PPM file based on the selected transformation.
 
-## Example
+## EXAMPLE
+## Our Input ppm File converted to jpg:
+![althaea](https://github.com/user-attachments/assets/c5c07d45-60dd-4404-9df6-830f6e384e13)
+
+## Features 
+- **Negate**: Inverts the colors of the image by subtracting each pixel value from 255.
+- **Output**:
+  ![negate](https://github.com/user-attachments/assets/e8a0c3c9-040d-48c7-a611-5eeffd9e4c66)
+- **Quantize**: Converts pixel values to either 0 or 255 based on a threshold of 127.
+- **Output**:
+  ![quantize](https://github.com/user-attachments/assets/51ed4f66-ab4f-427c-9c34-64a5cfd299e2)
+- **Grayscale**: Converts the image to grayscale by averaging the red, green, and blue components of each pixel.
+- **Output**:
+ ![grayscale](https://github.com/user-attachments/assets/52901c28-817b-42ed-aa33-ac64236599dd)
+- **Flip Horizontal**: Flips the image horizontally.
+-**Output**:
+![fliphorizontal](https://github.com/user-attachments/assets/7eb9d03f-1485-4b51-bb27-1e86b3fc872e)
+
+## Whats happening behind the back?
 
 ### Input
 A PPM file (`input.ppm`) with the following content:
