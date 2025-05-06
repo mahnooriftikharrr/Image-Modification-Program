@@ -4,6 +4,9 @@
 
 The **Image Modification Program** is a Java-based application that processes and modifies PPM (Portable Pixmap) image files. The program allows users to apply various image transformations, such as negation, quantization, grayscale conversion, and horizontal flipping.
 
+## Our Input ppm File converted to jpg:
+![althaea](https://github.com/user-attachments/assets/c5c07d45-60dd-4404-9df6-830f6e384e13)
+
 ## Features
 - **Negate**: Inverts the colors of the image by subtracting each pixel value from 255.
 - **Quantize**: Converts pixel values to either 0 or 255 based on a threshold of 127.
